@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+Challenge 2: Portfolio
 
 This is a website of my portfolio. The icon on the top to the left is a personal professional website I made. Underneath is a section of 9 tiles of some of the specialities that I have done in my real life. Including two of the project links from this course. 
 
