@@ -1,0 +1,97 @@
+*{
+    background-color: #545454;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    color: azure;
+}
+
+div, nav, a {
+    text-align:end
+}
+
+section {
+    margin: 5px auto;
+    width: 80%;
+    background-color: cadetblue;
+    display:block;
+  }
+
+h3 {
+    text-align: center;
+    color: azure;
+}
+h2 {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.hero {
+    display: block;
+    background-color: darkslategray;
+    color: azure;
+    text-align: center;
+    margin-top: 20px;
+    /* Alternative font-family: "Lucida Console", "Monaco", "monospace";*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', "Arial", "sans-serif";
+}
+.Banner,h2 {
+    height: 140px;
+    background-color: cadetblue;
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    color: azure;
+}
+
+@media screen and (max-width: 795px) {
+    main, 
+    div {
+        flex-direction: column;
+    }
+}
+    .column{
+    width: auto;
+    text-align: center;
+    }
+div a img {
+    height: 100px;
+    width: 100px;
+}
+
+a, img {
+    margin: auto;
+    width: 450px;
+    height: 100%;
+}
+.isle {
+    align-content: center;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.column {
+    align-content: center;
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
